@@ -65,6 +65,7 @@ def main():
         raw_df = handle_weekends(raw_df)
         print(raw_df.head())
         raw_df.to_csv(f"{ticker}_raw.csv")
+        
 
 #----------------------------
 #6. Door
